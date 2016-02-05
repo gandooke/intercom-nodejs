@@ -68,7 +68,7 @@ dbHelper.dbExists(nano, dbName, function (err,res) {
 var twilioCreds = getServiceCreds(appEnv, "Twilio"),
     twilioClient = require('twilio')(twilioCreds.accountSID, twilioCreds.authToken),
     twilioHelper = require("./lib/twilioHelper.js"),
-    twiloNumber = "15555555555";
+    twiloNumber = "19493565336";
 
 //---Set up Watson Speech-To-Text-----------------------------------------------
 var speechToTextCreds = getServiceCreds(appEnv, "intercom-speech-to-text");
@@ -745,8 +745,8 @@ function seedDB() {
   // Create rep doc and insert it
   var initialRep = {
     "type" : "rep",
-    "repName" : "John Doe",
-    "repPhoneNum" : "15555555555",
+    "repName" : "Bardia Nikpourian",
+    "repPhoneNum" : "14804526176",
     "state" : "Available"
   }
 

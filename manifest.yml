@@ -7,12 +7,12 @@ declared-services:
     label: cloudantNoSQLDB
     plan: Shared
 applications:
-- name: intercom-sample-app
+- name: intercom_Bardia
   framework: node
   runtime: node10
   memory: 512M
   instances: 1
-  host: intercom-sample-app
+  host: intercom-Bardia
   path: .
   command: node app.js
   services:
